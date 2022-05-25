@@ -1,0 +1,11 @@
+[package]
+name = "wasm_from_lib_workspace"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+lib = { path = "../lib" }
+wasm-bindgen = "0.2.80"

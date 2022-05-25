@@ -1,0 +1,12 @@
+{
+  "name": "wasm_from_lib_workspace",
+  "version": "0.1.0",
+  "files": [
+    "wasm_from_lib_workspace_bg.wasm",
+    "wasm_from_lib_workspace.js",
+    "wasm_from_lib_workspace.d.ts"
+  ],
+  "module": "wasm_from_lib_workspace.js",
+  "types": "wasm_from_lib_workspace.d.ts",
+  "sideEffects": false
+}

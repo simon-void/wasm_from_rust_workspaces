@@ -1,0 +1,20 @@
+description = "PoC of splitting Rust code to be compiled to wasm into workspaces"
+repository = "https://github.com/simon-void/wasm_from_rust_workspaces"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[workspace]
+members = [
+    "workspace/*",
+]
+
+[profile.release]
+# opt-level valid options are:
+#    0: no optimizations
+#    1: basic optimizations
+#    2: some optimizations
+#    3: all optimizations
+#    "s": optimize for binary size
+#    "z": optimize for binary size, but also turn off loop vectorization.
+opt-level = 3
