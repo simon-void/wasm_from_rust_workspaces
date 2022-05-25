@@ -1,7 +1,7 @@
-mkdir ./docs/pkg/
+#!/bin/bash
 
 cd ./workspace/wasm
 
 wasm-pack build --release --target web
 
-cp ./pkg/package.json ./pkg/wasm_from_lib_workspace* ../../docs/pkg/
+cp -f ./pkg/package.json ./pkg/wasm_from_lib_workspace* ../../docs/pkg/
