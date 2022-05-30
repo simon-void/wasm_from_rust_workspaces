@@ -1,4 +1,4 @@
-use lib::*;
+use lib::math::*;
 use wasm_bindgen::prelude::*;
 
 #[wasm_bindgen]

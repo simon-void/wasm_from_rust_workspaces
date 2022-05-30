@@ -1,4 +1,4 @@
-use lib::*;
+use lib::math::*;
 
 fn main() {
     let sum = plus_one(2);
